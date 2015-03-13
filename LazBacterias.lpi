@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <CurrentVersionNr Value="1"/>
+      <CurrentMinorRevNr Value="1"/>
+      <CurrentBuildNr Value="132"/>
+      <Language Value="0416"/>
+      <FileDescription Value="LazBacterias - Jogo"/>
+      <LegalCopyright Value="GPL - Ericson Benjamim"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="LazBacterias.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LazBacterias"/>
+        <CursorPos X="1" Y="9"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormPrincipal"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazBacterias_FormPrincipal"/>
+        <CursorPos X="4" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="LazBacterias_FormSobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSobre"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazBacterias_FormSobre"/>
+        <CursorPos X="24" Y="13"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <CursorPos X="5" Y="395"/>
+        <TopLine Value="383"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="422" Column="34" TopLine="404"/>
+      </Position1>
+      <Position2>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="186" Column="42" TopLine="176"/>
+      </Position2>
+      <Position3>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="164" Column="34" TopLine="155"/>
+      </Position3>
+      <Position4>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="502" Column="30" TopLine="496"/>
+      </Position4>
+      <Position5>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="531" Column="42" TopLine="521"/>
+      </Position5>
+      <Position6>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="252" Column="3" TopLine="225"/>
+      </Position6>
+      <Position7>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="123" Column="70" TopLine="114"/>
+      </Position7>
+      <Position8>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="432" Column="57" TopLine="421"/>
+      </Position8>
+      <Position9>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="149" Column="35" TopLine="148"/>
+      </Position9>
+      <Position10>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="446" Column="58" TopLine="435"/>
+      </Position10>
+      <Position11>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="235" Column="81" TopLine="219"/>
+      </Position11>
+      <Position12>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="620" Column="46" TopLine="604"/>
+      </Position12>
+      <Position13>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="194" Column="35" TopLine="172"/>
+      </Position13>
+      <Position14>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="446" Column="57" TopLine="441"/>
+      </Position14>
+      <Position15>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="393" Column="30" TopLine="378"/>
+      </Position15>
+      <Position16>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="448" Column="6" TopLine="444"/>
+      </Position16>
+      <Position17>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="130" Column="34" TopLine="117"/>
+      </Position17>
+      <Position18>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="447" Column="66" TopLine="431"/>
+      </Position18>
+      <Position19>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="444" Column="1" TopLine="431"/>
+      </Position19>
+      <Position20>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="447" Column="1" TopLine="429"/>
+      </Position20>
+      <Position21>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="643" Column="61" TopLine="623"/>
+      </Position21>
+      <Position22>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="649" Column="1" TopLine="629"/>
+      </Position22>
+      <Position23>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="645" Column="77" TopLine="629"/>
+      </Position23>
+      <Position24>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="639" Column="37" TopLine="629"/>
+      </Position24>
+      <Position25>
+        <Filename Value="LazBacterias_FormSobre.pas"/>
+        <Caret Line="3" Column="28" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="66" Column="33" TopLine="52"/>
+      </Position26>
+      <Position27>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="139" Column="43" TopLine="127"/>
+      </Position27>
+      <Position28>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="233" Column="42" TopLine="227"/>
+      </Position28>
+      <Position29>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position29>
+      <Position30>
+        <Filename Value="LazBacterias_FormPrincipal.pas"/>
+        <Caret Line="108" Column="31" TopLine="96"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="LazBacterias"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

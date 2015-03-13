@@ -1,0 +1,198 @@
+object FormPrincipal: TFormPrincipal
+  Left = 605
+  Height = 480
+  Top = 34
+  Width = 640
+  ActiveControl = ComboBoxForma
+  Caption = 'LazBactérias 1.0.1'
+  ClientHeight = 480
+  ClientWidth = 640
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '0.9.29'
+  object PanelCultura: TPanel
+    Left = 10
+    Height = 395
+    Top = 10
+    Width = 620
+    Color = clNavy
+    ParentColor = False
+    TabOrder = 0
+  end
+  object ButtonNovoJogo: TButton
+    Left = 10
+    Height = 25
+    Top = 415
+    Width = 118
+    Caption = 'Novo Jogo'
+    OnClick = ButtonNovoJogoClick
+    TabOrder = 1
+  end
+  object ButtonGeracao: TButton
+    Left = 134
+    Height = 25
+    Top = 415
+    Width = 118
+    Caption = 'Iniciar Geração'
+    OnClick = ButtonGeracaoClick
+    TabOrder = 2
+  end
+  object ButtonSair: TButton
+    Left = 512
+    Height = 25
+    Top = 415
+    Width = 118
+    Caption = 'Sair'
+    OnClick = ButtonSairClick
+    TabOrder = 6
+  end
+  object LabelTextoGeracao: TLabel
+    Left = 10
+    Height = 23
+    Top = 445
+    Width = 118
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Geração:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelGeracao: TLabel
+    Left = 134
+    Height = 23
+    Top = 445
+    Width = 12
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonSobre: TButton
+    Left = 388
+    Height = 25
+    Top = 415
+    Width = 118
+    Caption = 'Sobre o Jogo'
+    OnClick = ButtonSobreClick
+    TabOrder = 5
+  end
+  object ButtonMaisLento: TButton
+    Left = 261
+    Height = 25
+    Top = 415
+    Width = 56
+    Caption = '+ Lento'
+    OnClick = ButtonMaisLentoClick
+    TabOrder = 3
+  end
+  object ButtonMaisRapido: TButton
+    Left = 323
+    Height = 25
+    Top = 415
+    Width = 56
+    Caption = '+ Rápido'
+    OnClick = ButtonMaisRapidoClick
+    TabOrder = 4
+  end
+  object ColorButtonFundo: TColorButton
+    Left = 388
+    Height = 25
+    Hint = 'Cor de fundo'
+    Top = 445
+    Width = 36
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clGreen
+    Color = clBtnFace
+    OnColorChanged = ColorButtonFundoColorChanged
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object ColorButtonBacteriaViva: TColorButton
+    Left = 429
+    Height = 25
+    Hint = 'Cor da bactéria viva'
+    Top = 445
+    Width = 36
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clYellow
+    Color = clBtnFace
+    OnColorChanged = ColorButtonBacteriaVivaColorChanged
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object ColorButtonBacteriaMorta: TColorButton
+    Left = 470
+    Height = 25
+    Hint = 'Cor da bactéria morta'
+    Top = 445
+    Width = 36
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clSkyBlue
+    Color = clBtnFace
+    OnColorChanged = ColorButtonBacteriaMortaColorChanged
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object ComboBoxPredefinicao: TComboBox
+    Left = 512
+    Height = 21
+    Top = 445
+    Width = 118
+    Enabled = False
+    ItemHeight = 13
+    Items.Strings = (
+      'Limpar'
+      'Planador'
+      'Pequena Explosão'
+      'Explosão'
+      'Linha com 10 bactérias'
+      'Espaçonave leve'
+      'Copo'
+      'Floco de neve'
+      'Pulsar'
+      'Piscador'
+    )
+    OnChange = ComboBoxPredefinicaoChange
+    Style = csDropDownList
+    TabOrder = 8
+  end
+  object ComboBoxForma: TComboBox
+    Left = 261
+    Height = 21
+    Top = 445
+    Width = 118
+    ItemHeight = 13
+    ItemIndex = 0
+    Items.Strings = (
+      'Elipse'
+      'Retângulo'
+    )
+    OnChange = ComboBoxFormaChange
+    Style = csDropDownList
+    TabOrder = 7
+    Text = 'Elipse'
+  end
+  object TimerGeracao: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = TimerGeracaoTimer
+    left = 576
+    top = 352
+  end
+end
